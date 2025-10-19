@@ -28,7 +28,7 @@ jobs:
               uses: aws-actions/configure-aws-credentials@v4
               with:
                   role-to-assume: arn:aws:iam::848955332034:role/pipline-terraform-lab-1
-                  aws-region: eu-central-1
+                  aws-region: global
 
             # Décommentez et adaptez la section pour OpenTofu si vous l'utilisez
             # - name: Setup OpenTofu
