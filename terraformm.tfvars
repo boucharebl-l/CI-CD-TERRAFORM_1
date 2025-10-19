@@ -1,0 +1,5 @@
+aws_region       = "eu-central-1"
+project_name     = "project_lab_1"
+environement_tag = "Development"
+instance_type    = "t2.micro"
+aws_profile      = "project_lab_1"
