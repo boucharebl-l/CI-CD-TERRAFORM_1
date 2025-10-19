@@ -11,12 +11,6 @@ variable "aws_region" {
   default     = "eu-central-1"
 }
 
-variable "aws_profile" {
-  description = "Profil AWS à utiliser"
-  type        = string
-  default     = "project_lab_1"
-}
-
 variable "instance_type" {
   description = "Le type d'instance EC2 utilisé pour le seveur web"
   type        = string

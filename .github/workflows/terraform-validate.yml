@@ -27,7 +27,7 @@ jobs:
             - name: Configure AWS credentials
               uses: aws-actions/configure-aws-credentials@v4
               with:
-                  role-to-assume: arn:aws:iam::848955332034:role/githubAction-terraform-project-lab-1
+                  role-to-assume: arn:aws:iam::848955332034:role/terraform
                   aws-region: eu-central-1
 
             # Décommentez et adaptez la section pour OpenTofu si vous l'utilisez
